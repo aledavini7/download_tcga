@@ -30,11 +30,11 @@
     "gdc_client": {
       "type": "string",
       "description":"software for download",
-      "default":"/hpcnfs/scratch/ED/CLAM/gdc-client"
+      "default":"/hpcscratch/ieo/seqera-ederenzini/gdc-client"
     },
     "gdc_token": {
       "type": "string",
-      "default": "/hpcnfs/scratch/ED/CLAM/gdc_token/gdc-user-token.2024-06-27T15_25_22.163Z.txt"
+      "default": "/hpcscratch/ieo/seqera-ederenzini/gdc_token/gdc-user-token.2024-06-27T15_25_22.163Z.txt"
     }
   },
   "required": ["input_sample"]
