@@ -30,7 +30,8 @@
     "gdc_client": {
       "type": "string",
       "description":"software for download",
-      "default":"/hpcscratch/ieo/seqera-ederenzini/gdc-client"
+      "default":"/hpcscratch/ieo/seqera-ederenzini/gdc-client" 
+    }
     },
   "required": ["input_sample"]
 }
