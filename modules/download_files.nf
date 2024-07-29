@@ -12,6 +12,7 @@ process download {
 
     script:
     """
+    chmod 600 $params.gdc_token
     $params.gdc_client download -t $params.gdc_token $x
     """
 
