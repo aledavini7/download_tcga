@@ -28,7 +28,8 @@
   ],
   "properties": {
     "gdc_client": {
-      "type": "string"
+      "type": "string",
+      "description":"software for download"
     },
     "gdc_token": {
       "type": "string"
