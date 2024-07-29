@@ -2,8 +2,6 @@
 
 process download {
 
-    conda '/hpcnfs/home/ieo5898/miniconda3/envs/snake'
-
     publishDir "${params.outdir}", mode: 'copy'
 
     input:
