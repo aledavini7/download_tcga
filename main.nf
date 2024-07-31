@@ -12,7 +12,7 @@ include { download } from './modules/download_files.nf'
 workflow {
 
     Channel
-        .fromPath("/data/davini/prova/ids.txt")
+        .fromPath("/data/davini/ids.txt")
         .splitText().map{it -> it.trim()}
         .set { samples_ch }
 
