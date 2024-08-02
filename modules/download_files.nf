@@ -2,8 +2,6 @@
 
 process download {
 
-    secret 'gdc'
-
     publishDir "${params.outdir}", mode: 'copy'
 
     input:
