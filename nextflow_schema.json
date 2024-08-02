@@ -30,7 +30,7 @@
     "gdc_client": {
       "type": "string",
       "description":"software for download",
-      "default":"/hpcscratch/ieo/seqera-ederenzini/download_tcga/gdc-client" 
+      "default":"/hpcnfs/scratch/ED/CLAM/gdc-client" 
     },
     "gdc_token": {
       "type": "string",
