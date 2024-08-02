@@ -14,7 +14,7 @@ process download {
 
     script:
     """
-    $params.gdc_client download -t $params.gdc_token $x
+    $params.gdc_client download $x --token-file \$gdc
     """
 
 }
