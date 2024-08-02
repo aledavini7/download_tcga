@@ -31,10 +31,6 @@
       "type": "string",
       "description":"software for download",
       "default":"/hpcscratch/ieo/seqera-ederenzini/download_tcga/gdc-client" 
-    },
-    "gdc_token": {
-    "type": "string",
-    "default":"/hpcnfs/scratch/ED/CLAM/gdc_token/gdc-user-token.2024-07-31T09_52_36.713Z.txt"  
     }  
   },
   "required": ["input_sample"]
