@@ -31,7 +31,7 @@
       "type": "string",
       "description":"software for download",
       "default":"/hpcscratch/ieo/seqera-ederenzini/download_tcga/gdc-client" 
-    },
+    }
   },
   "required": ["input_sample"]
 }
