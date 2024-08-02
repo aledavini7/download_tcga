@@ -12,7 +12,7 @@ include { download } from './modules/download_files.nf'
 workflow {
 
     Channel
-        .fromPath("/data/davini/ids.txt")
+        .fromPath("/hpcscratch/ieo/seqera-ederenzini/download_tcga/ids.txt")
         .splitText().map{it -> it.trim()}
         .set { samples_ch }
 
