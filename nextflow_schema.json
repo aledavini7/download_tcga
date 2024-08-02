@@ -30,11 +30,11 @@
     "gdc_client": {
       "type": "string",
       "description":"software for download",
-      "default":"/data/davini_dare/tcga/gdc-client" 
+      "default":"/hpcnfs/scratch/ED/CLAM/gdc-client" 
     },
     "gdc_token": {
       "type": "string",
-      "default":"/data/davini_dare/tcga/gdc_token/gdc-user-token.2024-07-31T09_52_36.713Z.txt" 
+      "default":"/hpcnfs/scratch/ED/CLAM/gdc_token/gdc-user-token.2024-07-31T09_52_36.713Z.txt"
     }
   },
   "required": ["input_sample"]

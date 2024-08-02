@@ -2,8 +2,6 @@
 
 process download {
 
-    secret 'gdc'
-
     publishDir "${params.outdir}", mode: 'copy'
 
     input:
@@ -14,7 +12,7 @@ process download {
 
     script:
     """
-    $params.gdc_client download -t $params.gdc_token $x
+    $params.gdc_client download $x --token-file $params.gdc_token
     """
 
 }
