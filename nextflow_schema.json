@@ -34,7 +34,7 @@
     },
     "gdc_token": {
       "type": "string",
-      "default":"/hpcnfs/scratch/ED/CLAM/gdc_token/gdc-user-token.2024-08-30T14_09_01.847Z.txt"
+      "default":"/hpcnfs/scratch/ED/CLAM/gdc_token/gdc-user-token.2024-09-30T08_48_07.370Z.txt"
     }
   },
   "required": ["input_sample"]
